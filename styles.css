@@ -1,0 +1,61 @@
+.imageHover{
+  border-bottom: none; 
+}
+.lineStyle{
+  border-width: 0.5;
+  border-color: rgb(163, 161, 161);
+  width: 60%;
+  margin: 5px;
+}
+.imageHover:hover {
+    border-bottom: 1px solid; 
+    background-color: rgb(247, 247, 243);
+    border-radius: 5px;
+    border-color: rgb(43, 42, 45);
+    border-width: 4px;
+  }
+.centeredView{
+  justify-content: left;
+  align-items: center;
+  margin-top: 22;
+}
+.templateImage {
+  display: flex;
+  width: 100%;
+  gap: 24px;
+  justify-content: center;
+}
+.templateBottom {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  direction: ltr;
+  justify-content: flex-start;
+  text-align: left;
+}
+.imageScreen{
+  height: 500px;
+  width: 500px;
+  position: relative;
+  text-align: left;
+  justify-content: flex-start;
+}
+.imgDamage {
+  width: 40px;
+  height: 40px;
+  position: absolute;
+}
+.wrapperImg {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: space-between;
+  margin: 15px;
+}
+
+.Description{
+  width: 25%;
+  margin-left: -10%;
+
+}

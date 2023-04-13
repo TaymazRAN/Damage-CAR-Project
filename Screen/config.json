@@ -1,0 +1,4 @@
+{
+  "AddressApi": "https://rv-proxy-2.herokuapp.com/api/assessment/damage-templates/1",
+  "localApi": "http://localhost:19006" 
+}
